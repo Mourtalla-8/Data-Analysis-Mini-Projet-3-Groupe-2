@@ -1,8 +1,11 @@
-# **Rapport Mini Projet 3 - Groupe 2**
+<div align="center">
+
+# 🌟 **Rapport Mini Projet 3 - Groupe 2** 🌟
 
 ---
 
----
+</div>
+
 
 Ce rapport se concentre sur l'analyse des données issues du dataset **"Airline_customer_satisfaction 2"**, qui comporte **129880 entrées** et **22 variables**. Le but de ce mini-projet est de renforcer les compétences en traitement des données, de l'importation à l'analyse, pour appuyer des prises de décisions basées sur des faits.
 
@@ -40,19 +43,6 @@ df.head()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -82,7 +72,7 @@ df.head()
   </thead>
   <tbody>
     <tr>
-      <th>0</th>
+      <th style="vertical-align: middle;">0</th>
       <td>satisfied</td>
       <td>Loyal Customer</td>
       <td>65</td>
@@ -106,7 +96,7 @@ df.head()
       <td>0.0</td>
     </tr>
     <tr>
-      <th>1</th>
+      <th style="vertical-align: middle;">1</th>
       <td>satisfied</td>
       <td>Loyal Customer</td>
       <td>47</td>
@@ -130,7 +120,7 @@ df.head()
       <td>305.0</td>
     </tr>
     <tr>
-      <th>2</th>
+      <th style="vertical-align: middle;">2</th>
       <td>satisfied</td>
       <td>Loyal Customer</td>
       <td>15</td>
@@ -154,7 +144,7 @@ df.head()
       <td>0.0</td>
     </tr>
     <tr>
-      <th>3</th>
+      <th style="vertical-align: middle;">3</th>
       <td>satisfied</td>
       <td>Loyal Customer</td>
       <td>60</td>
@@ -178,7 +168,7 @@ df.head()
       <td>0.0</td>
     </tr>
     <tr>
-      <th>4</th>
+      <th style="vertical-align: middle;">4</th>
       <td>satisfied</td>
       <td>Loyal Customer</td>
       <td>70</td>
@@ -292,19 +282,7 @@ data.head(2)
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -715,19 +693,6 @@ missing_table
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -869,19 +834,6 @@ missing_table
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1019,19 +971,6 @@ data.describe()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1439,19 +1378,6 @@ data[['Âge', 'Distance de Vol', 'Retard au Départ en Minutes', 'Retard à l’
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1609,19 +1535,6 @@ display(class_counts)
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1651,19 +1564,6 @@ display(class_counts)
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1693,19 +1593,6 @@ display(class_counts)
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1735,19 +1622,6 @@ display(class_counts)
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -2283,19 +2157,6 @@ avg_delays
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -2382,6 +2243,8 @@ Le graphique illustre les évaluations des différents services en fonction des 
 Cette analyse suggère qu'en ciblant l'amélioration des services perçus comme déficients, l'entreprise peut considérablement **rehausser l'expérience des passagers** et, par conséquent, **augmenter la satisfaction client**.
 
 
+<div align="center">
+
 ---
 
 ---
@@ -2389,6 +2252,8 @@ Cette analyse suggère qu'en ciblant l'amélioration des services perçus comme 
 # **Conclusion**
 
 ---
+
+</div>
 
 L'analyse approfondie des données de satisfaction des clients a révélé des **corrélations significatives** entre plusieurs facteurs clés influençant l'expérience des passagers, notamment le **type de client**, la **classe de voyage**, la **qualité des services** offerts à bord, ainsi que les **retards** au départ et à l'arrivée. Ces relations ont enrichi notre compréhension des causes de l'**insatisfaction** et ont permis de proposer des pistes d'amélioration ciblées.
 
